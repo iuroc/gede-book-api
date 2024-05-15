@@ -1,8 +1,13 @@
 {
     "compilerOptions": {
+        "target": "ESNext",
         "strict": true,
+        "outDir": "js",
         "lib": [
-            "ESNext"
-        ]
+            "ESNext",
+            "DOM"
+        ],
+        "module": "ESNext",
+        "moduleResolution": "Bundler"
     },
 }
