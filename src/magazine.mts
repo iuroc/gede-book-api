@@ -11,6 +11,7 @@ export class Magazine {
         }))
     }
 
+    /** 加载指定类目的期刊列表 */
     static async getList(catagoryId: number, page = 0, pageSize = 72): Promise<MagazineItem[]> {
         const params = new URLSearchParams({
             gedeid: '847516381',
@@ -35,6 +36,11 @@ export class Magazine {
         }))
     }
 
+    /**
+     * 获取期刊的分期列表
+     * @param id 期刊编号
+     * @returns 
+     */
     static async getIssues(id: number): Promise<IssueItem[]> {
         const url = `http://gede.5read.com/apis/magazine/magazineItems.jspx?magazineid=${id}`
         const data = await fetch(url).then(res => res.json()) as ResData<{
@@ -55,6 +61,7 @@ export class Magazine {
 
     /**
      * 获取期刊正文和目录数据
+     * @param surl 某期的 `surl`
      * @param issueId 某期编号
      * @param page 页码
      * @param pageSize 数据条数
@@ -84,6 +91,11 @@ export class Magazine {
         }
     }
 
+    /** 获取期刊目录数据 */
+    static async getCatalog(surl: string, issueId: string) {
+        return await this.getData(surl, issueId, 1, 0)
+    }
+
     private static async getDetailURL(surl: string) {
         const url = `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${surl}`
         const data = await fetch(url).then(res => res.text())
@@ -91,6 +103,7 @@ export class Magazine {
         if (!detailUrlMatch) throw new Error('获取 detailUrl 失败')
         return detailUrlMatch[1]
     }
+
 }
 
 type ResIssueItem = {
