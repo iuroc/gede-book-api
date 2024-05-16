@@ -32,9 +32,9 @@ npm install gede-book-api
     pageSize?: number
 ): Promise<BookItem[]>
 
-获取指定类目的图书列表
+获取指定类别的图书列表
 
-@param catagoryId — 图书类目编号
+@param catagoryId — 图书类别编号
 
 @param page — 页码
 
@@ -93,7 +93,7 @@ npm install gede-book-api
     pageSize?: number
 ): Promise<MagazineItem[]>
 
-加载指定类目的期刊列表
+加载指定类别的期刊列表
 ```
 
 ```ts
