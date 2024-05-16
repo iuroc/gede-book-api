@@ -1,0 +1,736 @@
+{
+    "catalogs": [
+        {
+            "contentIndex": 0,
+            "children": [],
+            "snum": 1,
+            "pid": "0",
+            "href": "Text/copyright-data.xhtml",
+            "id": "copyright-data.xhtml",
+            "page": 2,
+            "title": "版权信息"
+        },
+        {
+            "contentIndex": 1,
+            "children": [],
+            "snum": 2,
+            "pid": "0",
+            "href": "Text/toc.xhtml",
+            "id": "toc.xhtml",
+            "page": 3,
+            "title": "目录"
+        },
+        {
+            "contentIndex": 2,
+            "children": [],
+            "snum": 81,
+            "pid": "0",
+            "href": "Text/paxt1.xhtml",
+            "id": "paxt1.xhtml",
+            "page": 5,
+            "title": "序 北大才子 诗必多——《仙沐——谢孟诗集》读后"
+        },
+        {
+            "contentIndex": 3,
+            "children": [],
+            "snum": 166,
+            "pid": "0",
+            "href": "Text/paxt2.xhtml",
+            "id": "paxt2.xhtml",
+            "page": 8,
+            "title": "作者简介："
+        },
+        {
+            "contentIndex": 4,
+            "children": [],
+            "snum": 168,
+            "pid": "0",
+            "href": "Text/paxt3.xhtml",
+            "id": "paxt3.xhtml",
+            "page": 9,
+            "title": "自序"
+        },
+        {
+            "contentIndex": 5,
+            "children": [
+                {
+                    "contentIndex": 6,
+                    "snum": 204,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt6.xhtml",
+                    "id": "paxt6.xhtml",
+                    "page": 12,
+                    "title": "摆渡船工"
+                },
+                {
+                    "contentIndex": 7,
+                    "snum": 222,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt7.xhtml",
+                    "id": "paxt7.xhtml",
+                    "page": 13,
+                    "title": "祖国处处是故乡"
+                },
+                {
+                    "contentIndex": 8,
+                    "snum": 229,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt8.xhtml",
+                    "id": "paxt8.xhtml",
+                    "page": 14,
+                    "title": "长思曲——纪念敬爱的周恩来总理逝世一周年"
+                },
+                {
+                    "contentIndex": 9,
+                    "snum": 360,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt9.xhtml",
+                    "id": "paxt9.xhtml",
+                    "page": 17,
+                    "title": "眼睛——献给为实现祖国复兴梦而奋斗的人们"
+                },
+                {
+                    "contentIndex": 10,
+                    "snum": 386,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt10.xhtml",
+                    "id": "paxt10.xhtml",
+                    "page": 18,
+                    "title": "自强不 息的旗帜——怀鲁迅"
+                },
+                {
+                    "contentIndex": 11,
+                    "snum": 404,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt11.xhtml",
+                    "id": "paxt11.xhtml",
+                    "page": 19,
+                    "title": "雪"
+                },
+                {
+                    "contentIndex": 12,
+                    "snum": 419,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt12.xhtml",
+                    "id": "paxt12.xhtml",
+                    "page": 20,
+                    "title": "夜的飞流"
+                },
+                {
+                    "contentIndex": 13,
+                    "snum": 446,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt13.xhtml",
+                    "id": "paxt13.xhtml",
+                    "page": 21,
+                    "title": "求知"
+                },
+                {
+                    "contentIndex": 14,
+                    "snum": 457,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt14.xhtml",
+                    "id": "paxt14.xhtml",
+                    "page": 22,
+                    "title": "咏怀——为中央电大建校十周年作，兼贺教师节"
+                },
+                {
+                    "contentIndex": 15,
+                    "snum": 482,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt15.xhtml",
+                    "id": "paxt15.xhtml",
+                    "page": 23,
+                    "title": "评宋江——观电视剧《水浒传》有感"
+                },
+                {
+                    "contentIndex": 16,
+                    "snum": 492,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt16.xhtml",
+                    "id": "paxt16.xhtml",
+                    "page": 24,
+                    "title": "对镜自语"
+                },
+                {
+                    "contentIndex": 17,
+                    "snum": 509,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt17.xhtml",
+                    "id": "paxt17.xhtml",
+                    "page": 25,
+                    "title": "远眺佳境"
+                },
+                {
+                    "contentIndex": 18,
+                    "snum": 515,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt18.xhtml",
+                    "id": "paxt18.xhtml",
+                    "page": 26,
+                    "title": "问答二则"
+                },
+                {
+                    "contentIndex": 19,
+                    "snum": 521,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt19.xhtml",
+                    "id": "paxt19.xhtml",
+                    "page": 27,
+                    "title": "初约"
+                },
+                {
+                    "contentIndex": 20,
+                    "snum": 531,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt20.xhtml",
+                    "id": "paxt20.xhtml",
+                    "page": 28,
+                    "title": "有感情人节"
+                },
+                {
+                    "contentIndex": 21,
+                    "snum": 545,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt21.xhtml",
+                    "id": "paxt21.xhtml",
+                    "page": 29,
+                    "title": "致母校——北京三十一中学（原崇德学校）"
+                },
+                {
+                    "contentIndex": 22,
+                    "snum": 567,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt22.xhtml",
+                    "id": "paxt22.xhtml",
+                    "page": 30,
+                    "title": "春的寻觅"
+                },
+                {
+                    "contentIndex": 23,
+                    "snum": 593,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt23.xhtml",
+                    "id": "paxt23.xhtml",
+                    "page": 31,
+                    "title": "我们曾快乐起航——拜读谢老师《春的寻觅》有感"
+                },
+                {
+                    "contentIndex": 24,
+                    "snum": 625,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt24.xhtml",
+                    "id": "paxt24.xhtml",
+                    "page": 32,
+                    "title": "梦乡"
+                },
+                {
+                    "contentIndex": 25,
+                    "snum": 637,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt25.xhtml",
+                    "id": "paxt25.xhtml",
+                    "page": 33,
+                    "title": "白云和森林"
+                },
+                {
+                    "contentIndex": 26,
+                    "snum": 651,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt26.xhtml",
+                    "id": "paxt26.xhtml",
+                    "page": 34,
+                    "title": "海参崴之晨"
+                },
+                {
+                    "contentIndex": 27,
+                    "snum": 658,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt27.xhtml",
+                    "id": "paxt27.xhtml",
+                    "page": 35,
+                    "title": "傍晚的海参崴"
+                },
+                {
+                    "contentIndex": 28,
+                    "snum": 665,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt28.xhtml",
+                    "id": "paxt28.xhtml",
+                    "page": 36,
+                    "title": "在八女投江群雕前的凝思"
+                },
+                {
+                    "contentIndex": 29,
+                    "snum": 687,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt29.xhtml",
+                    "id": "paxt29.xhtml",
+                    "page": 37,
+                    "title": "雾里积木"
+                },
+                {
+                    "contentIndex": 30,
+                    "snum": 699,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt30.xhtml",
+                    "id": "paxt30.xhtml",
+                    "page": 38,
+                    "title": "俄罗斯广场婚礼"
+                },
+                {
+                    "contentIndex": 31,
+                    "snum": 715,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt31.xhtml",
+                    "id": "paxt31.xhtml",
+                    "page": 39,
+                    "title": "与爱妻同游海淀凤凰岭"
+                },
+                {
+                    "contentIndex": 32,
+                    "snum": 727,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt32.xhtml",
+                    "id": "paxt32.xhtml",
+                    "page": 40,
+                    "title": "长白山天池的故事"
+                },
+                {
+                    "contentIndex": 33,
+                    "snum": 742,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt33.xhtml",
+                    "id": "paxt33.xhtml",
+                    "page": 41,
+                    "title": "香山秋景随笔二首"
+                },
+                {
+                    "contentIndex": 34,
+                    "snum": 756,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt34.xhtml",
+                    "id": "paxt34.xhtml",
+                    "page": 42,
+                    "title": "蓝宝石的传说"
+                },
+                {
+                    "contentIndex": 35,
+                    "snum": 765,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt35.xhtml",
+                    "id": "paxt35.xhtml",
+                    "page": 43,
+                    "title": "黄河文化吟"
+                },
+                {
+                    "contentIndex": 36,
+                    "snum": 789,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt36.xhtml",
+                    "id": "paxt36.xhtml",
+                    "page": 44,
+                    "title": "除夜感怀"
+                },
+                {
+                    "contentIndex": 37,
+                    "snum": 799,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt37.xhtml",
+                    "id": "paxt37.xhtml",
+                    "page": 45,
+                    "title": " 乘机俯瞰匈牙利夜色有感"
+                },
+                {
+                    "contentIndex": 38,
+                    "snum": 805,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt38.xhtml",
+                    "id": "paxt38.xhtml",
+                    "page": 46,
+                    "title": "车过阿姆斯特丹"
+                },
+                {
+                    "contentIndex": 39,
+                    "snum": 821,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt39.xhtml",
+                    "id": "paxt39.xhtml",
+                    "page": 47,
+                    "title": "儿行千里母牵挂"
+                },
+                {
+                    "contentIndex": 40,
+                    "snum": 829,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt40.xhtml",
+                    "id": "paxt40.xhtml",
+                    "page": 48,
+                    "title": "戏赞古稀聊以自嘲"
+                },
+                {
+                    "contentIndex": 41,
+                    "snum": 839,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt41.xhtml",
+                    "id": "paxt41.xhtml",
+                    "page": 49,
+                    "title": "新春随想"
+                },
+                {
+                    "contentIndex": 42,
+                    "snum": 849,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt42.xhtml",
+                    "id": "paxt42.xhtml",
+                    "page": 50,
+                    "title": "小桥"
+                },
+                {
+                    "contentIndex": 43,
+                    "snum": 871,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt43.xhtml",
+                    "id": "paxt43.xhtml",
+                    "page": 51,
+                    "title": "沉默的壮士"
+                },
+                {
+                    "contentIndex": 44,
+                    "snum": 905,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt44.xhtml",
+                    "id": "paxt44.xhtml",
+                    "page": 52,
+                    "title": "生命之歌——我读萧默"
+                },
+                {
+                    "contentIndex": 45,
+                    "snum": 924,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt45.xhtml",
+                    "id": "paxt45.xhtml",
+                    "page": 53,
+                    "title": "台湾行"
+                },
+                {
+                    "contentIndex": 46,
+                    "snum": 930,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt46.xhtml",
+                    "id": "paxt46.xhtml",
+                    "page": 54,
+                    "title": "梦中的你"
+                },
+                {
+                    "contentIndex": 47,
+                    "snum": 940,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt47.xhtml",
+                    "id": "paxt47.xhtml",
+                    "page": 55,
+                    "title": "除夕将近怀北大校友"
+                },
+                {
+                    "contentIndex": 48,
+                    "snum": 946,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt48.xhtml",
+                    "id": "paxt48.xhtml",
+                    "page": 56,
+                    "title": "心中最美的花"
+                },
+                {
+                    "contentIndex": 49,
+                    "snum": 968,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt49.xhtml",
+                    "id": "paxt49.xhtml",
+                    "page": 57,
+                    "title": "遥望宝岛抒怀 （为国开 合唱团参赛歌曲所拟朗诵词）"
+                },
+                {
+                    "contentIndex": 50,
+                    "snum": 978,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt50.xhtml",
+                    "id": "paxt50.xhtml",
+                    "page": 58,
+                    "title": "大写的人"
+                },
+                {
+                    "contentIndex": 51,
+                    "snum": 986,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt51.xhtml",
+                    "id": "paxt51.xhtml",
+                    "page": 59,
+                    "title": "仙沐"
+                },
+                {
+                    "contentIndex": 52,
+                    "snum": 1047,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt52.xhtml",
+                    "id": "paxt52.xhtml",
+                    "page": 61,
+                    "title": "爱情四部曲"
+                },
+                {
+                    "contentIndex": 53,
+                    "snum": 1053,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt53.xhtml",
+                    "id": "paxt53.xhtml",
+                    "page": 62,
+                    "title": "心中的歌"
+                },
+                {
+                    "contentIndex": 54,
+                    "snum": 1070,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt54.xhtml",
+                    "id": "paxt54.xhtml",
+                    "page": 63,
+                    "title": "心中的火"
+                },
+                {
+                    "contentIndex": 55,
+                    "snum": 1085,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt55.xhtml",
+                    "id": "paxt55.xhtml",
+                    "page": 64,
+                    "title": "你从大地走来——喜庆新中国70华诞"
+                },
+                {
+                    "contentIndex": 56,
+                    "snum": 1092,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt56.xhtml",
+                    "id": "paxt56.xhtml",
+                    "page": 65,
+                    "title": "未名湖三章"
+                },
+                {
+                    "contentIndex": 57,
+                    "snum": 1108,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt57.xhtml",
+                    "id": "paxt57.xhtml",
+                    "page": 66,
+                    "title": "为母校题签三首"
+                },
+                {
+                    "contentIndex": 58,
+                    "snum": 1129,
+                    "pid": "paxt4.xhtml",
+                    "href": "Text/paxt58.xhtml",
+                    "id": "paxt58.xhtml",
+                    "page": 67,
+                    "title": "致姚允文"
+                }
+            ],
+            "snum": 202,
+            "pid": "0",
+            "href": "Text/paxt4.xhtml",
+            "id": "paxt4.xhtml",
+            "page": 11,
+            "title": "新诗"
+        },
+        {
+            "contentIndex": 59,
+            "children": [
+                {
+                    "contentIndex": 60,
+                    "snum": 1141,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt61.xhtml",
+                    "id": "paxt61.xhtml",
+                    "page": 69,
+                    "title": "云南行七首 （1968年8月6日—1968年8月18日）"
+                },
+                {
+                    "contentIndex": 61,
+                    "snum": 1183,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt62.xhtml",
+                    "id": "paxt62.xhtml",
+                    "page": 70,
+                    "title": "怀君苓（钗头凤）"
+                },
+                {
+                    "contentIndex": 62,
+                    "snum": 1205,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt63.xhtml",
+                    "id": "paxt63.xhtml",
+                    "page": 71,
+                    "title": "读词有感（浪淘沙）"
+                },
+                {
+                    "contentIndex": 63,
+                    "snum": 1217,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt64.xhtml",
+                    "id": "paxt64.xhtml",
+                    "page": 72,
+                    "title": "咏颐和园（七 律）"
+                },
+                {
+                    "contentIndex": 64,
+                    "snum": 1227,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt65.xhtml",
+                    "id": "paxt65.xhtml",
+                    "page": 73,
+                    "title": "十五年教龄感怀（七律）"
+                },
+                {
+                    "contentIndex": 65,
+                    "snum": 1237,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt66.xhtml",
+                    "id": "paxt66.xhtml",
+                    "page": 74,
+                    "title": "与北大校友田小琳举家之 香港赠别 （古风）"
+                },
+                {
+                    "contentIndex": 66,
+                    "snum": 1247,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt67.xhtml",
+                    "id": "paxt67.xhtml",
+                    "page": 75,
+                    "title": "路遇（五绝）"
+                },
+                {
+                    "contentIndex": 67,
+                    "snum": 1253,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt68.xhtml",
+                    "id": "paxt68.xhtml",
+                    "page": 76,
+                    "title": "红烛吟（歌行体 ）——为九十年代第一个教 师节作"
+                },
+                {
+                    "contentIndex": 68,
+                    "snum": 1261,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt69.xhtml",
+                    "id": "paxt69.xhtml",
+                    "page": 77,
+                    "title": "无题（七律）"
+                },
+                {
+                    "contentIndex": 69,
+                    "snum": 1271,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt70.xhtml",
+                    "id": "paxt70.xhtml",
+                    "page": 78,
+                    "title": "燕园忆旧（七律）"
+                },
+                {
+                    "contentIndex": 70,
+                    "snum": 1281,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt71.xhtml",
+                    "id": "paxt71.xhtml",
+                    "page": 79,
+                    "title": "龙 川大峡谷漂流（七绝）"
+                },
+                {
+                    "contentIndex": 71,
+                    "snum": 1293,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt72.xhtml",
+                    "id": "paxt72.xhtml",
+                    "page": 80,
+                    "title": "与笔友曾胡唱和二首（七绝）"
+                },
+                {
+                    "contentIndex": 72,
+                    "snum": 1314,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt73.xhtml",
+                    "id": "paxt73.xhtml",
+                    "page": 81,
+                    "title": "喜相逢（七绝）"
+                },
+                {
+                    "contentIndex": 73,
+                    "snum": 1321,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt74.xhtml",
+                    "id": "paxt74.xhtml",
+                    "page": 82,
+                    "title": "乡间偶作（采桑子）"
+                },
+                {
+                    "contentIndex": 74,
+                    "snum": 1331,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt75.xhtml",
+                    "id": "paxt75.xhtml",
+                    "page": 83,
+                    "title": "初会榆园（七古）"
+                },
+                {
+                    "contentIndex": 75,
+                    "snum": 1341,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt76.xhtml",
+                    "id": "paxt76.xhtml",
+                    "page": 84,
+                    "title": " 驱车逸兴（七绝）"
+                },
+                {
+                    "contentIndex": 76,
+                    "snum": 1347,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt77.xhtml",
+                    "id": "paxt77.xhtml",
+                    "page": 85,
+                    "title": "欣逢国家开放大学老同事联谊盛会感怀（七律）"
+                },
+                {
+                    "contentIndex": 77,
+                    "snum": 1357,
+                    "pid": "paxt59.xhtml",
+                    "href": "Text/paxt78.xhtml",
+                    "id": "paxt78.xhtml",
+                    "page": 86,
+                    "title": "喜庆武汉抗疫解封（七绝）"
+                }
+            ],
+            "snum": 1139,
+            "pid": "0",
+            "href": "Text/paxt59.xhtml",
+            "id": "paxt59.xhtml",
+            "page": 68,
+            "title": "旧体诗词"
+        },
+        {
+            "contentIndex": 78,
+            "children": [],
+            "snum": 1363,
+            "pid": "0",
+            "href": "Text/paxt79.xhtml",
+            "id": "paxt79.xhtml",
+            "page": 87,
+            "title": "附录 四首歌曲歌词及加注"
+        },
+        {
+            "contentIndex": 79,
+            "children": [],
+            "snum": 1418,
+            "pid": "0",
+            "href": "Text/paxt80.xhtml",
+            "id": "paxt80.xhtml",
+            "page": 89,
+            "title": "后记"
+        }
+    ],
+    "contents": []
+}

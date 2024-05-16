@@ -1,3 +1,3 @@
-import { Magazine } from './magazine.mjs'
+import { Book } from './book.mjs'
+import { writeFileSync } from 'fs'
 
-Magazine.getCategories().then(list => console.log(list))
