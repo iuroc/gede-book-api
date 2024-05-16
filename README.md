@@ -26,7 +26,11 @@ npm install gede-book-api
 ```
 
 ```ts
-(method) Book.getList(catagoryId: number, page?: number, pageSize?: number): Promise<BookItem[]>
+(method) Book.getList(
+    catagoryId: number,
+    page?: number,
+    pageSize?: number
+): Promise<BookItem[]>
 
 获取指定类目的图书列表
 
@@ -46,7 +50,13 @@ npm install gede-book-api
 ```
 
 ```ts
-(method) Book.getData(id: string, page?: number, pageSize?: number, width?: number, height?: number): Promise<BookData>
+(method) Book.getData(
+    id: string,
+    page?: number,
+    pageSize?: number,
+    width?: number,
+    height?: number
+): Promise<BookData>
 
 获取图书正文和目录数据
 
@@ -77,7 +87,11 @@ npm install gede-book-api
 ```
 
 ```ts
-(method) Magazine.getList(catagoryId: number, page?: number, pageSize?: number): Promise<MagazineItem[]>
+(method) Magazine.getList(
+    catagoryId: number,
+    page?: number,
+    pageSize?: number
+): Promise<MagazineItem[]>
 
 加载指定类目的期刊列表
 ```
@@ -91,7 +105,14 @@ npm install gede-book-api
 ```
 
 ```ts
-(method) Magazine.getData(surl: string, issueId: string, page?: number, pageSize?: number, width?: number, height?: number): Promise<BookData>
+(method) Magazine.getData(
+    surl: string,
+    issueId: string,
+    page?: number,
+    pageSize?: number,
+    width?: number,
+    height?: number
+): Promise<BookData>
  
 获取期刊正文和目录数据
 
