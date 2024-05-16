@@ -9,8 +9,7 @@
 ## 快速开始
 
 ```
-npm install
-npm run dev
+npm install gede-book-api
 ```
 
 ## API 文档

@@ -8,7 +8,7 @@
   },
   "name": "gede-book-api",
   "description": "> 歌德电子书借阅机 API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "js/main.mjs",
   "dependencies": {
     "undici-types": "^5.26.5"
