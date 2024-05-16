@@ -5,7 +5,7 @@
   },
   "scripts": {
     "dev": "tsc -w"
-  }, 
+  },
   "name": "gede-book-api",
   "description": "> 歌德电子书借阅机 API",
   "version": "1.0.3",
