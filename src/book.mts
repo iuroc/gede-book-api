@@ -113,24 +113,9 @@ export class Book {
     }
 }
 
-/** HTTP 响应中的图书正文和目录数据 */
-type ResBookData = BookData & {
-    pageAll: number
-    fontsize: number
-    pageSize: number
-    page: number
-    hasGif: number
-}
 
-/** 图书正文和目录数据 */
-type BookData = {
-    contents: string[]
-    catalogs: {
-        page: number,
-        title: string
-        children: BookData['catalogs']
-    }[]
-}
+
+
 
 /** HTTP 响应中的图书目录数据 */
 type ResCategory = {
