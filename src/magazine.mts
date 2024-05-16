@@ -11,7 +11,7 @@ export class Magazine {
         }))
     }
 
-    /** 加载指定类目的期刊列表 */
+    /** 加载指定类别的期刊列表 */
     static async getList(catagoryId: number, page = 0, pageSize = 72): Promise<MagazineItem[]> {
         const params = new URLSearchParams({
             gedeid: '847516381',

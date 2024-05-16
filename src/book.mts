@@ -19,8 +19,8 @@ export class Book {
     }
 
     /**
-     * 获取指定类目的图书列表
-     * @param catagoryId 图书类目编号
+     * 获取指定类别的图书列表
+     * @param catagoryId 图书类别编号
      * @param page 页码
      * @param pageSize 返回数据条数
      * @returns 
