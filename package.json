@@ -8,11 +8,8 @@
   },
   "name": "gede-book-api",
   "description": "> 歌德电子书借阅机 API",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "js/main.mjs",
-  "dependencies": {
-    "undici-types": "^5.26.5"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iuroc/gede-book-api.git"
