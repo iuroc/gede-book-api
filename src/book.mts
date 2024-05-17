@@ -1,3 +1,5 @@
+/// <reference path="types.d.mts" />
+
 export class Book {
     private static gedeId = 847516381
     /** 获取类别列表 */

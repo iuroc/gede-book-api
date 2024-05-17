@@ -1,3 +1,5 @@
+/// <reference path="types.d.mts" />
+
 export class Magazine {
     private static gedeId = 847516381
     /** 获取类别列表 */
