@@ -52,7 +52,7 @@ export class Book {
             publish: item.publish,
             summary: item.summary,
             surl: item.surl,
-            webReadar: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${item.surl}`
+            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${item.surl}`
         }))
     }
 
@@ -77,7 +77,7 @@ export class Book {
             surl: data.msg.surl,
             epub: data.msg.path,
             publishTime: data.msg.pubTime,
-            webReadar: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${data.msg.surl}`
+            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${data.msg.surl}`
         }
     }
 
@@ -164,7 +164,7 @@ export type BookItem = {
     surl: string
     price: string
     /** 网页阅读器 */
-    webReadar: string
+    webReader: string
 }
 
 /** 图书详情 */

@@ -57,7 +57,7 @@ export class Magazine {
             magazineName: item.name,
             qrCode: item.codeImg,
             surl: item.surl,
-            webReadar: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${item.surl}`
+            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${item.surl}`
         }))
     }
 
@@ -162,7 +162,7 @@ export type IssueItem = {
     name: string
     qrCode: string
     surl: string
-    webReadar: string
+    webReader: string
 }
 
 type ResCategory = {
