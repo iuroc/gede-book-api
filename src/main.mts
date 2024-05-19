@@ -1,4 +1,19 @@
-import { Book } from "./book.mjs";
-import { Magazine } from "./magazine.mjs";
+import {
+    Book,
+    BookInfo,
+    BookItem
+} from './book.mjs'
+import {
+    Magazine,
+    MagazineItem,
+    IssueItem
+} from './magazine.mjs'
 
-export { Book, Magazine }
+export {
+    Book,
+    Magazine,
+    BookInfo,
+    BookItem,
+    MagazineItem,
+    IssueItem
+}
