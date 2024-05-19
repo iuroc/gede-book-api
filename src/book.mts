@@ -115,10 +115,6 @@ export class Book {
     }
 }
 
-
-
-
-
 /** HTTP 响应中的图书目录数据 */
 type ResCategory = {
     cataid: string
@@ -157,7 +153,7 @@ type ResBookInfo = ResBookItem & {
 }
 
 /** 图书列表项 */
-type BookItem = {
+export type BookItem = {
     name: string
     author: string
     id: string
@@ -172,7 +168,7 @@ type BookItem = {
 }
 
 /** 图书详情 */
-type BookInfo = BookItem & {
+export type BookInfo = BookItem & {
     /** EPUB 文件地址 */
     epub: string
     /** 发布时间 */

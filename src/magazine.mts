@@ -138,7 +138,7 @@ type ResMagazineItem = {
     urlid: number
 }
 
-type MagazineItem = {
+export type MagazineItem = {
     /** 期刊名称 */
     name: string
     /** 在线阅读器所需参数 */
@@ -155,7 +155,7 @@ type MagazineItem = {
     cover: string
 }
 
-type IssueItem = {
+export type IssueItem = {
     issueId: string
     magazineName: string
     cover: string
