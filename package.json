@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
   },
   "scripts": {
@@ -8,7 +7,7 @@
   },
   "name": "gede-book-api",
   "description": "> 歌德电子书借阅机 API",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "js/main.mjs",
   "types": "src/main.mts",
   "repository": {
