@@ -77,7 +77,8 @@ export class Book {
             surl: data.msg.surl,
             epub: data.msg.path,
             publishTime: data.msg.pubTime,
-            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${data.msg.surl}`
+            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${data.msg.surl}`,
+            type: data.msg.type
         }
     }
 
@@ -150,6 +151,8 @@ type ResBookInfo = ResBookItem & {
     path: string
     /** 发布时间 */
     pubTime: string
+    /** GD 是 PDF 版本，HY 可以在线阅读 */
+    type: 'GD' | 'HY'
 }
 
 /** 图书列表项 */
@@ -173,4 +176,5 @@ export type BookInfo = BookItem & {
     epub: string
     /** 发布时间 */
     publishTime: string
+    type: string
 }
