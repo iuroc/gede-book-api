@@ -130,3 +130,17 @@ npm install gede-book-api
 
 获取期刊目录数据
 ```
+
+## 关于书刊文件
+
+### 阅读器
+
+1. https://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:gede.5read.com/g/ce2edfaf66aa4b9885745c62932cb2c7.h （最兼容的）
+2. https://gede.5read.com/o/a.h?a=GEDE:https://gede.5read.com/g/89921215.h （源文件是 PDZX）
+3. https://gede.5read.com/other/epub/nread.jsp?a=GEDE:gede.5read.com/g/7031b6c7bc8b4873a0ebbbf00cc1341d.h （源文件是 PDF）
+
+### 文件类型
+
+1. 可直接通过 1 网页阅读器阅读
+2. 无法通过 1 网页阅读器阅读，可通过获取详情后，下载 EPUB 或者 PDF 阅读
+3. 无法通过 1 网页阅读器阅读，可通过 2 或 3 网页阅读器阅读
