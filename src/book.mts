@@ -52,7 +52,9 @@ export class Book {
             publish: item.publish,
             summary: item.summary,
             surl: item.surl,
-            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${item.surl}`
+            webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${item.surl}`,
+            type: item.type,
+            isbn: item.isbn
         }))
     }
 
@@ -78,7 +80,8 @@ export class Book {
             epub: data.msg.path,
             publishTime: data.msg.pubTime,
             webReader: `http://gede.5read.com/other/epub/read4tm.jsp?a=GEDE:${data.msg.surl}`,
-            type: data.msg.type
+            type: data.msg.type,
+            isbn: data.msg.isbn
         }
     }
 
@@ -143,6 +146,8 @@ type ResBookItem = {
     pageNum: number
     /** 图书价格 */
     price: string
+    type: string
+    isbn: string
 }
 
 /** HTTP 响应中的图书详情信息 */
@@ -151,8 +156,7 @@ type ResBookInfo = ResBookItem & {
     path: string
     /** 发布时间 */
     pubTime: string
-    /** GD 是 PDF 版本，HY 可以在线阅读 */
-    type: 'GD' | 'HY'
+    type: string
 }
 
 /** 图书列表项 */
@@ -168,6 +172,8 @@ export type BookItem = {
     price: string
     /** 网页阅读器 */
     webReader: string
+    type: string
+    isbn: string
 }
 
 /** 图书详情 */
