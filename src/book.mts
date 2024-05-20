@@ -146,7 +146,7 @@ type ResBookItem = {
     pageNum: number
     /** 图书价格 */
     price: string
-    type: string
+    type: BookItem['type']
     isbn: string
 }
 
@@ -156,7 +156,6 @@ type ResBookInfo = ResBookItem & {
     path: string
     /** 发布时间 */
     pubTime: string
-    type: string
 }
 
 /** 图书列表项 */
@@ -172,7 +171,7 @@ export type BookItem = {
     price: string
     /** 网页阅读器 */
     webReader: string
-    type: string
+    type: 'HY' | 'GD'
     isbn: string
 }
 
@@ -182,5 +181,4 @@ export type BookInfo = BookItem & {
     epub: string
     /** 发布时间 */
     publishTime: string
-    type: string
 }
