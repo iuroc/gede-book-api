@@ -1,4 +1,4 @@
-/// <reference path="types.d.mts" />
+/// <reference path="types.d.ts" />
 
 export class Magazine {
     private static gedeId = 847516381
