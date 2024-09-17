@@ -94,8 +94,8 @@ export class Magazine {
     }
 
     /** 获取期刊目录数据 */
-    static async getCatalog(surl: string, issueId: string) {
-        return await this.getData(surl, issueId, 1, 0)
+    static async getCatalog(surl: string, issueId: string, width = 1500, height = 1500) {
+        return await this.getData(surl, issueId, 1, 0, width, height)
     }
 
     private static async getDetailURL(surl: string) {

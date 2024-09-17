@@ -114,8 +114,8 @@ export class Book {
     }
 
     /** 获取图书目录数据 */
-    static async getCatalog(id: string) {
-        return await this.getData(id, 1, 0)
+    static async getCatalog(id: string, width = 1500, height = 1500) {
+        return await this.getData(id, 1, 0, width, height)
     }
 }
 
