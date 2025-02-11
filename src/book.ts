@@ -7,7 +7,7 @@ export class Book {
         const getData = async (gedeId?: number) => {
             const end = typeof gedeId == 'undefined' ? '' : `?gedeid=${gedeId}`
             const url = `https://gede.5read.com/apis/touchBook/bookCata.jspx${end}`
-            const data = await fetch(url).then(res => res.json()) as ResData<ResCategory[]>
+            const data = await fetch(url).then(res => res.json()) as ResData<BookResCategory[]>
             if (!data.result) throw new Error(data.errorMsg)
             return data.msg.map(item => ({
                 id: item.id,
@@ -120,7 +120,7 @@ export class Book {
 }
 
 /** HTTP 响应中的图书目录数据 */
-type ResCategory = {
+export type BookResCategory = {
     cataid: string
     cataname: string
     id: number
@@ -128,7 +128,7 @@ type ResCategory = {
 }
 
 /** HTTP 响应中的图书列表项 */
-type ResBookItem = {
+export type ResBookItem = {
     author: string
     /** 大图封面 */
     bcover: string
@@ -151,7 +151,7 @@ type ResBookItem = {
 }
 
 /** HTTP 响应中的图书详情信息 */
-type ResBookInfo = ResBookItem & {
+export type ResBookInfo = ResBookItem & {
     /** EPUB 文件地址 */
     path: string
     /** 发布时间 */

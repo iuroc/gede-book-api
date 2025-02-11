@@ -32,6 +32,42 @@ declare class Book {
     /** 获取图书目录数据 */
     static getCatalog(id: string, width?: number, height?: number): Promise<BookData>;
 }
+/** HTTP 响应中的图书目录数据 */
+type BookResCategory = {
+    cataid: string;
+    cataname: string;
+    id: number;
+    dataversion: string;
+};
+/** HTTP 响应中的图书列表项 */
+type ResBookItem = {
+    author: string;
+    /** 大图封面 */
+    bcover: string;
+    /** 小图封面 */
+    cover: string;
+    bookNum: string;
+    /** 出版社 */
+    publish: string;
+    /** 内容摘要 */
+    summary: string;
+    surl: string;
+    /** 图书名称 */
+    title: string;
+    /** 总页数 */
+    pageNum: number;
+    /** 图书价格 */
+    price: string;
+    type: BookItem['type'];
+    isbn: string;
+};
+/** HTTP 响应中的图书详情信息 */
+type ResBookInfo = ResBookItem & {
+    /** EPUB 文件地址 */
+    path: string;
+    /** 发布时间 */
+    pubTime: string;
+};
 /** 图书列表项 */
 type BookItem = {
     name: string;
@@ -86,6 +122,34 @@ declare class Magazine {
     static getCatalog(surl: string, issueId: string, width?: number, height?: number): Promise<BookData>;
     private static getDetailURL;
 }
+type ResIssueItem = {
+    coverPath: string;
+    issue: string;
+    codeImg: string;
+    name: string;
+    surl: string;
+    id: number;
+    sort: string;
+    magazineid: number;
+    urlid: number;
+    magazineItemNum: string;
+};
+/** HTTP 响应中的期刊列表项 */
+type ResMagazineItem = {
+    /** 期刊介绍 */
+    summary: string;
+    /** 封面地址 */
+    coverPath: string;
+    magazineNum: string;
+    iSSN: string;
+    /** 期刊名称 */
+    name: string;
+    surl: string;
+    cN: string;
+    /** 期刊编号，用于获取分期列表 */
+    id: number;
+    urlid: number;
+};
 type MagazineItem = {
     /** 期刊名称 */
     name: string;
@@ -111,5 +175,10 @@ type IssueItem = {
     surl: string;
     webReader: string;
 };
+type MagazineResCategory = {
+    id: number;
+    cataName: string;
+    version: string;
+};
 
-export { Book, Magazine };
+export { Book, type BookInfo, type BookItem, type BookResCategory, type IssueItem, Magazine, type MagazineItem, type MagazineResCategory, type ResBookInfo, type ResBookItem, type ResIssueItem, type ResMagazineItem };

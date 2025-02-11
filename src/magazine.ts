@@ -5,7 +5,7 @@ export class Magazine {
     /** 获取类别列表 */
     static async getCategories(): Promise<{ id: number, name: string }[]> {
         const url = `https://gede.5read.com/apis/magazine/magazineCatas.jspx?gedeid=${this.gedeId}`
-        const data = await fetch(url).then(res => res.json()) as ResData<ResCategory[]>
+        const data = await fetch(url).then(res => res.json()) as ResData<MagazineResCategory[]>
         if (!data.result) throw new Error(data.errorMsg)
         return data.msg.map(item => ({
             id: item.id,
@@ -108,7 +108,7 @@ export class Magazine {
 
 }
 
-type ResIssueItem = {
+export type ResIssueItem = {
     coverPath: string
     issue: string
     codeImg: string
@@ -122,7 +122,7 @@ type ResIssueItem = {
 }
 
 /** HTTP 响应中的期刊列表项 */
-type ResMagazineItem = {
+export type ResMagazineItem = {
     /** 期刊介绍 */
     summary: string
     /** 封面地址 */
@@ -165,7 +165,7 @@ export type IssueItem = {
     webReader: string
 }
 
-type ResCategory = {
+export type MagazineResCategory = {
     id: number
     cataName: string
     version: string
