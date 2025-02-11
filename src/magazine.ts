@@ -146,11 +146,11 @@ export type MagazineItem = {
     /** 期刊编号 */
     id: number
     /** 国内刊号 */
-    cn: string
+    cn?: string
     /** 国际刊号 */
-    issn: string
+    issn?: string
     /** 期刊介绍 */
-    summary: string
+    summary?: string
     /** 封面地址 */
     cover: string
 }
