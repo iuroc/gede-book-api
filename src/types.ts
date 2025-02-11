@@ -1,4 +1,4 @@
-declare type ResData<Data> = {
+export type ResData<Data> = {
     result: true
     msg: Data
 } | {
@@ -7,7 +7,7 @@ declare type ResData<Data> = {
 }
 
 /** 图书正文和目录数据 */
-declare type BookData = {
+export type BookData = {
     contents: string[]
     catalogs: {
         page: number,
@@ -17,7 +17,7 @@ declare type BookData = {
 }
 
 /** HTTP 响应中的图书正文和目录数据 */
-type ResBookData = BookData & {
+export type ResBookData = BookData & {
     pageAll: number
     fontsize: number
     pageSize: number

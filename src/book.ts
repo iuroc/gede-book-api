@@ -1,4 +1,4 @@
-/// <reference path="types.d.ts" />
+import { BookData, ResBookData, ResData } from './types.js'
 
 export class Book {
     private static gedeId = 847516381

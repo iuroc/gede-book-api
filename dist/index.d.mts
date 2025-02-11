@@ -1,3 +1,28 @@
+type ResData<Data> = {
+    result: true;
+    msg: Data;
+} | {
+    result: false;
+    errorMsg: string;
+};
+/** 图书正文和目录数据 */
+type BookData = {
+    contents: string[];
+    catalogs: {
+        page: number;
+        title: string;
+        children: BookData['catalogs'];
+    }[];
+};
+/** HTTP 响应中的图书正文和目录数据 */
+type ResBookData = BookData & {
+    pageAll: number;
+    fontsize: number;
+    pageSize: number;
+    page: number;
+    hasGif: number;
+};
+
 declare class Book {
     private static gedeId;
     /** 获取类别列表 */
@@ -181,4 +206,4 @@ type MagazineResCategory = {
     version: string;
 };
 
-export { Book, type BookInfo, type BookItem, type BookResCategory, type IssueItem, Magazine, type MagazineItem, type MagazineResCategory, type ResBookInfo, type ResBookItem, type ResIssueItem, type ResMagazineItem };
+export { Book, type BookData, type BookInfo, type BookItem, type BookResCategory, type IssueItem, Magazine, type MagazineItem, type MagazineResCategory, type ResBookData, type ResBookInfo, type ResBookItem, type ResData, type ResIssueItem, type ResMagazineItem };
